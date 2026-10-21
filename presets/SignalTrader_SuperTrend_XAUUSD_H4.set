@@ -1,0 +1,17 @@
+; Signal Trader - SuperTrend - XAUUSD H4 preset
+; Copyright 2026, Allan Niñal
+InpSource=1
+InpUtKey=2.0
+InpUtATR=10
+InpUtEMA=false
+InpStATR=10
+InpStMult=2.0
+InpStEMA=false
+InpRfPeriod=100
+InpRfMult=3.0
+InpStopATR=3.0
+InpTpR=0.0
+InpMagic=26101701
+InpSlippage=30
+InpPanel=true
+InpDebug=false

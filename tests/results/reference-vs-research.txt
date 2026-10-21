@@ -1,0 +1,9 @@
+tests/reference.py vs the research simulation the preset was screened with (XAUUSD H4, SuperTrend ATR 10 x 2.0, stop 3 ATR, no target)
+Entries from 2023-07-01 to the end of the data (2026-10-10), broker M1 history, server time. Executed 2026-10-21.
+The research simulation is a separate Python engine (with session-aware fills and swap); it is not published, nor is the broker history.
+
+research simulation trades: 213     reference trades: 213
+same entry bar and side:    213 of 213 (0 only in one of them)
+same exit bar:              212 of 213
+The one difference is a buy on 2024-03-21: the research simulation fills entries at the first tradable minute of a bar and the
+reference at the bar open, and for this trade the stop is hit on a different bar. Largest entry-price difference over all trades: 13.74.
